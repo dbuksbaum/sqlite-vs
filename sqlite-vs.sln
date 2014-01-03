@@ -5,6 +5,11 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3", "sqlite3\sqlite3.vcxproj", "{54A229B4-635B-4AB3-8E0C-72D2DB205A74}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D107DB6-F8B3-4AF1-B7FF-5E9A8DFE8F44}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -13,8 +18,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{54A229B4-635B-4AB3-8E0C-72D2DB205A74}.Release|x64.ActiveCfg = Release Dynamic Runtime|x64
 		{54A229B4-635B-4AB3-8E0C-72D2DB205A74}.Release|x64.Build.0 = Release Dynamic Runtime|x64
-		{54A229B4-635B-4AB3-8E0C-72D2DB205A74}.Release|x86.ActiveCfg = Release Static Runtime|Win32
-		{54A229B4-635B-4AB3-8E0C-72D2DB205A74}.Release|x86.Build.0 = Release Static Runtime|Win32
+		{54A229B4-635B-4AB3-8E0C-72D2DB205A74}.Release|x86.ActiveCfg = Release Dynamic Runtime|Win32
+		{54A229B4-635B-4AB3-8E0C-72D2DB205A74}.Release|x86.Build.0 = Release Dynamic Runtime|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
